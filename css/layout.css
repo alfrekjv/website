@@ -118,7 +118,13 @@ body {
 	padding: 10px 0;
 }
 
-#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content h3 a {
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content a, #wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content h3 {
 
 	text-decoration: none;
+	color: #42826C;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content a:hover {
+
+	color: #002F32;
 }
