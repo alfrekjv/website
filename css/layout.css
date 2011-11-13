@@ -3,6 +3,13 @@ body {
 	color: #000;
 }
 
+#header.header-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+}
+
 #header {
 	background: #454545;
 	border-bottom: 10px solid #42826C;
