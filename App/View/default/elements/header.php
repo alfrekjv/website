@@ -2,7 +2,7 @@
 	<div class="header-container">
 		<div class="fl header-left">
 			<a href="<?= $baseUrl; ?>" title="PPI Framework">
-				<img class="abs" src="<?= $baseUrl; ?>images/ppi-logo.png" height="40" alt="PPI Framework">
+				<img class="abs" src="<?= $baseUrl; ?>images/ppi-logo.png" height="30" alt="PPI Framework">
 			</a>
 		</div>
 		<div class="fl rel header-middle">
