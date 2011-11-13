@@ -1,0 +1,88 @@
+body {
+	background: #f0f0f0;
+	color: #000;
+}
+
+#header {
+	background: #454545;
+	border-bottom: 10px solid #42826C;
+	padding: 10px;
+
+	/* CSS3 Gradients */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#ffffff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f0f0f0,  #ffffff); /* for firefox 3.6+ */
+}
+
+#header .header-container .header-middle .main-nav {
+	clear: both;
+	padding: 35px 0 0 0;
+}
+
+#header .header-container .header-middle .main-nav a {
+	color: #42826C;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#header .header-container .header-middle .main-nav a.active {
+	color: #002F32;
+}
+
+#header .header-container .header-middle {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+#header .header-container .header-left {
+	float: left;
+	width: 49%;
+	padding: 10px 0 0 0;
+}
+
+#header .header-container .header-middle .social {
+	display: none;
+}
+
+#header .header-container .header-middle .social-item {
+	float: left;
+	width: 80px;
+}
+
+#header .header-container .header-middle .gplusone-container {
+	width: 40px;
+}
+
+#wrapper {
+	width: 95%;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content {
+	background: #fff;
+	border: 1px solid #c0c0c0;
+	padding: 20px;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container {
+	margin: 0 auto;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item {
+
+	width: 31%;
+	float: left;
+	height: 230px;
+	padding: 10px;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item img {
+	height: 92px;
+}
+
+#wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content h3 {
+
+	height: 35px;
+}

@@ -55,7 +55,7 @@ abstract class Application extends \PPI\Controller {
 	 * @param array $options
 	 */
 	function adminLoad($template, array $options = array()) {
-		$this->setTemplateFile('admin-template.php');
+		$this->setTemplateFile('admin-template_.php');
 		$this->load($template, $options);
 	}
 
