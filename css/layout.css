@@ -6,7 +6,6 @@ body {
 #header {
 	background: #454545;
 	border-bottom: 10px solid #42826C;
-	padding: 10px;
 
 	/* CSS3 Gradients */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ffffff'); /* for IE */
@@ -21,7 +20,7 @@ body {
 
 #header .header-container .header-middle .main-nav {
 	clear: both;
-	padding: 35px 0 0 0;
+	padding: 25px 0 0 0;
 }
 
 #header .header-container .header-middle .main-nav a {
