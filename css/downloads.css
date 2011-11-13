@@ -1,7 +1,7 @@
 .downloads-container {
 	height: auto;
 	width: 915px;
-	margin-left: 20px;
+	margin: 0 auto;
 }
 
 .downloads-container .page-header {
@@ -10,7 +10,7 @@
 
 .downloads-container .page-header h1 {
 	text-shadow: 1px 1px 1px #2F0909;
-	color: #FFF;
+	color: #5F9680;
 	font-size: 1.4em;
 }
 

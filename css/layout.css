@@ -14,15 +14,24 @@ body {
 	background: -moz-linear-gradient(top,  #f0f0f0,  #ffffff); /* for firefox 3.6+ */
 }
 
+#header .header-container {
+	width: 960px;
+	margin: 0 auto;
+}
+
 #header .header-container .header-middle .main-nav {
 	clear: both;
 	padding: 35px 0 0 0;
 }
 
 #header .header-container .header-middle .main-nav a {
-	color: #42826C;
+	color: #5F9680;
 	text-decoration: none;
 	padding: 5px;
+}
+
+#header .header-container .header-middle .main-nav a:hover {
+	color: #002F32;
 }
 
 #header .header-container .header-middle .main-nav a.active {
@@ -55,9 +64,10 @@ body {
 }
 
 #wrapper {
-	width: 95%;
+	width: 960px;
 	margin: 0 auto;
 	padding: 15px;
+	clear: both;
 }
 
 #wrapper .main-content-container .main-content-container-inner .main-content {
@@ -74,15 +84,17 @@ body {
 
 	width: 31%;
 	float: left;
-	height: 230px;
+	height: 265px;
 	padding: 10px;
 }
 
 #wrapper .main-content-container .main-content-container-inner .main-content .item-container .item img {
-	height: 92px;
+	height: 90px;
 }
 
 #wrapper .main-content-container .main-content-container-inner .main-content .item-container .item .item-content h3 {
 
 	height: 35px;
+	line-height: 45px;
+	padding: 10px 0;
 }
